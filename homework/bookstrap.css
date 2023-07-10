@@ -1,0 +1,71 @@
+* {
+  transition: 1s;
+}
+
+#main-p .carousel-item img {
+  object-fit: cover;
+}
+
+#flooter img{
+border-radius:50% ;
+object-fit: cover;
+/* ?? */
+}
+
+.container{
+  padding: 20px;
+}
+
+input{
+  width: 100%;
+}
+
+#top{
+  background-color: rgba(0, 0, 0, 0.223);
+}
+
+
+
+.ultext{
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+
+.ultext  :hover{
+  color: aqua;
+}
+
+.ultext>th :hover{
+  color: rgb(174, 36, 36);
+}
+
+
+/* 
+@media(min-width:576px) {
+  #myCarousel {
+    height: calc(40vh + 10vw);
+  }
+
+  #main-p.carousel {
+    height: 100%;
+  }
+
+  #main-p .carousel-inner {
+    height: 100%;
+  }
+
+  #main-p .carousel-item {
+    height: 100%;
+  }
+
+  #main-p .carousel-item img {
+    height: 100%;
+  }
+}
+
+@media(min-width:992px) {
+  #myCarousel {
+    height: 100vh;
+  }
+} */
